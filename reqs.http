@@ -1,0 +1,19 @@
+###
+@dominio=pruebacodespace1
+
+
+GET https://{{dominio}}.onrender.com/demo/all
+
+###
+
+POST https://{{dominio}}.onrender.com/demo/add
+Content-Type: application/x-www-form-urlencoded
+
+name=Daniela&email=d@idat.edu.pe
+
+###
+
+DELETE https://{{dominio}}.onrender.com/demo/del
+Content-Type: application/x-www-form-urlencoded
+
+id=2
