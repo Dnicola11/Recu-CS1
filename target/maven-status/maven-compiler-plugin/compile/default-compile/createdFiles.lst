@@ -1,2 +1,5 @@
 com/example/codespace/CodespaceApplication.class
 com/example/codespace/Controller.class
+com/example/codespace/UserRepository.class
+com/example/codespace/ApiController.class
+com/example/codespace/User.class
